@@ -1,4 +1,4 @@
-
+module.exports = { initSocket };
 const { Server } = require("socket.io");
 
 function initSocket(httpServer) {
